@@ -11,9 +11,6 @@
 		380C0CFD2B28322300313C31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380C0CFC2B28322300313C31 /* ContentView.swift */; };
 		380C0CFF2B28322300313C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380C0CFE2B28322300313C31 /* Assets.xcassets */; };
 		380C0D032B28322300313C31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380C0D022B28322300313C31 /* Preview Assets.xcassets */; };
-		380C0D0D2B28322400313C31 /* PinchZoomPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380C0D0C2B28322400313C31 /* PinchZoomPracticeTests.swift */; };
-		380C0D172B28322400313C31 /* PinchZoomPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380C0D162B28322400313C31 /* PinchZoomPracticeUITests.swift */; };
-		380C0D192B28322400313C31 /* PinchZoomPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380C0D182B28322400313C31 /* PinchZoomPracticeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,7 @@
 		380C0D002B28322300313C31 /* PinchZoomPractice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinchZoomPractice.entitlements; sourceTree = "<group>"; };
 		380C0D022B28322300313C31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		380C0D082B28322400313C31 /* PinchZoomPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchZoomPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		380C0D0C2B28322400313C31 /* PinchZoomPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchZoomPracticeTests.swift; sourceTree = "<group>"; };
 		380C0D122B28322400313C31 /* PinchZoomPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchZoomPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		380C0D162B28322400313C31 /* PinchZoomPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchZoomPracticeUITests.swift; sourceTree = "<group>"; };
-		380C0D182B28322400313C31 /* PinchZoomPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchZoomPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				380C0CF92B28322300313C31 /* PinchZoomPractice */,
-				380C0D0B2B28322400313C31 /* PinchZoomPracticeTests */,
-				380C0D152B28322400313C31 /* PinchZoomPracticeUITests */,
 				380C0CF82B28322300313C31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +102,6 @@
 				380C0D022B28322300313C31 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		380C0D0B2B28322400313C31 /* PinchZoomPracticeTests */ = {
-			isa = PBXGroup;
-			children = (
-				380C0D0C2B28322400313C31 /* PinchZoomPracticeTests.swift */,
-			);
-			path = PinchZoomPracticeTests;
-			sourceTree = "<group>";
-		};
-		380C0D152B28322400313C31 /* PinchZoomPracticeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				380C0D162B28322400313C31 /* PinchZoomPracticeUITests.swift */,
-				380C0D182B28322400313C31 /* PinchZoomPracticeUITestsLaunchTests.swift */,
-			);
-			path = PinchZoomPracticeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380C0D0D2B28322400313C31 /* PinchZoomPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380C0D172B28322400313C31 /* PinchZoomPracticeUITests.swift in Sources */,
-				380C0D192B28322400313C31 /* PinchZoomPracticeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +406,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -442,10 +414,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kim.PinchZoomPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,7 +445,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -480,10 +453,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kim.PinchZoomPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
